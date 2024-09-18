@@ -56,7 +56,8 @@
 </nav>
 
 <main>
-    <h2>Otsikko</h2>
+    <h2>Otsikko</h2> {
+    color: white; }
     <p>Testitestitestitesti.</p>
 </main>
 
