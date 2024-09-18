@@ -16,7 +16,7 @@
             background-position: center
         }
         header {
-            background-color: #4CAF50;
+            background-color: #000000;
             color: white;
             padding: 15px;
             text-align: center;
@@ -28,14 +28,14 @@
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #4CAF50;
+            color: #000000;
             font-weight: bold;
         }
         main {
             padding: 20px;
         }
         footer {
-            background-color: #4CAF50;
+            background-color: #000000;
             color: white;
             text-align: center;
             padding: 10px;
