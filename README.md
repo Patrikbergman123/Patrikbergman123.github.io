@@ -60,7 +60,7 @@ description: Bookmark this to keep an eye on my project updates!
 
 <main>
     <h2>Otsikko</h2>
-    <p>Tämä on yksinkertainen kotisivupohja. Voit muokata tätä tekstiä vastaamaan omia tarpeitasi ja lisätä lisää sisältöä tarpeen mukaan.</p>
+    <p>Testitestitestitesti.</p>
 </main>
 
 <footer>
