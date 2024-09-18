@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url(https://i.ytimg.com/vi/Emj2HzGYGSU/maxresdefault.jpg);
+            background-image: url(https://png.pngtree.com/background/20211217/original/pngtree-computer-light-effect-technology-theme-e-chip-business-background-picture-image_1591424.jpg);
             background-size: cover;
             background-repeat: no-repaet;
             background-position: center
