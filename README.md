@@ -1,5 +1,4 @@
 # Patrikbergman123.github.io
-<!DOCTYPE html>
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
@@ -39,7 +38,7 @@
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
+            position: center;
             width: 100%;
             bottom: 0;
         }
