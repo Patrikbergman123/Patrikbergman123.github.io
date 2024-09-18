@@ -10,7 +10,10 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000000;
+            background-image: url(https://i.ytimg.com/vi/Emj2HzGYGSU/maxresdefault.jpg);
+            background-size: cover;
+            background-repeat: no-repaet;
+            background-position: center
         }
         header {
             background-color: #4CAF50;
@@ -56,8 +59,7 @@
 </nav>
 
 <main>
-    <h2>Otsikko</h2> {
-    color: white; }
+    <h2>Otsikko</h2> 
     <p>Testitestitestitesti.</p>
 </main>
 
