@@ -1,7 +1,4 @@
 # Patrikbergman123.github.io
-theme: "jekyll-theme-minimal"
-title: Patrik's homepage
-description: Bookmark this to keep an eye on my project updates! 
 <!DOCTYPE html>
 <html lang="fi">
 <head>
@@ -48,7 +45,7 @@ description: Bookmark this to keep an eye on my project updates!
 <body>
 
 <header>
-    <h1>Tervetuloa Omaan Kotisivuun</h1>
+    <h1>Tervetuloa Patrikin Kotisivuille</h1>
 </header>
 
 <nav>
@@ -64,7 +61,7 @@ description: Bookmark this to keep an eye on my project updates!
 </main>
 
 <footer>
-    <p>&copy; 2024 Oma Kotisivu. Kaikki oikeudet pidätetään.</p>
+    <p>&copy; 2024 Patrikin Kotisivu. Kaikki oikeudet pidätetään.</p>
 </footer>
 
 </body>
