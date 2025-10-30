@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miten internet toimii</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1>Miten internet toimii</h1>
+        </header>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="dns.html">DNS</a></li>
+                <li><a href="tietoliikenne.html">Tietoliikenne</a></li>
+                <li><a href="palvelimet.html">Palvelimet</a></li>
+                <li><a href="yhteydenotto.html">Yhteydenotto</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <div class="content-text">
+                <h2>DNS</h2>
+                <p>DNS eli Domain Name System on järjestelmä, joka muuntaa verkkotunnukset, kuten www.esimerkki.fi, niiden taustalla oleviksi IP-osoitteiksi, kuten 192.0.2.1. Koska ihmiset muistavat helposti nimiä mutta eivät numeroita, DNS toimii ikään kuin internetin puhelinluettelona.</p>
+                <p>DNS on olennainen osa internetin toimivuutta ja tekee verkon käytöstä helpompaa, nopeampaa ja käyttäjäystävällisempää.</p>
+                <p>DNS-arkkitehtuuri koostuu kahdesta päätyypistä: rekursiivisista palvelimista ja auktoritatiivisista palvelimista. Rekursiiviset DNS-palvelimet ovat ne, jotka "kysyvät" eli etsivät tietoa, joka yhdistää käyttäjän verkkosivustoon.</p>
+            </div>
+            <figure class="content-image">
+                <img src="dns.jpg" alt="Kuva DNS:stä">
+            </figure>
+            <figure class="content-image">
+                <img src="dns2.jpg" alt="Kuva DNS:stä">
+            </figure>
+            <div class="content-text2">
+                <p>Auktoritatiiviset DNS-palvelimet puolestaan tallentavat varsinaiset tiedot verkkotunnuksista, kuten IP-osoitteet ja muut resurssitietueet. Kun rekursiivinen palvelin saa kyselyn, se tarkistaa ensin oman välimuistinsa. Jos tieto löytyy sieltä, se palauttaa sen käyttäjälle. Jos ei, se kysyy tietoa muilta DNS-palvelimilta, kunnes se löytää oikean vastauksen.</p>
+                <p>DNS-järjestelmä on hajautettu ja koostuu useista tasoista, mukaan lukien juuripalvelimet, TLD (Top-Level Domain) -palvelimet ja nimipalvelimet. Tämä hierarkkinen rakenne varmistaa, että DNS-kyselyt voidaan käsitellä tehokkaasti ja luotettavasti.</p>
+            </div>
+            </main>
+        <footer class="footer">
+            <h3> Patrik Bergman - Web kehittämisen perusteet </h3>
+        </footer>
+    </div>
+</body>
+</html>

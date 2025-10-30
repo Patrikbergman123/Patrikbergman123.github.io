@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miten internet toimii</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1>Miten internet toimii</h1>
+        </header>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="dns.html">DNS</a></li>
+                <li><a href="tietoliikenne.html">Tietoliikenne</a></li>
+                <li><a href="palvelimet.html">Palvelimet</a></li>
+                <li><a href="yhteydenotto.html">Yhteydenotto</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <div class="content-text">
+                <h2>Yhteydenotto</h2>
+                <form action="#" method="post" class="contact-form">
+                    <p class="form-instructions">Ota yhteyttä alla olevan lomakkeen kautta:</p>
+                    <div class="form-group">
+                        <label for="name">Nimi</label>
+                        <input type="text" id="name" name="name" required placeholder="Kirjoita nimesi">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Sähköposti</label>
+                        <input type="email" id="email" name="email" required placeholder="Sähköpostisi">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Viesti</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Kirjoita viestisi"></textarea>
+                    </div>
+                    <button type="submit">Lähetä</button>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <h3> Patrik Bergman - Web kehittämisen perusteet </h3>
+        </footer>
+    </div>
+</body>
+</html>
