@@ -35,7 +35,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #2d55f4;
-    color: white;
+    color: #fff;
     border-radius: 12px;
     padding: 15px;
     text-align: center;
@@ -56,7 +56,7 @@ body {
     gap: 10px;
 }
 
-.sidebar ul li a {
+.sidebar a {
     display: block;
     padding: 10px 15px;
     color: #fff;
@@ -66,7 +66,7 @@ body {
     transition: background 0.3s, transform 0.2s;
 }
 
-.sidebar ul li a:hover {
+.sidebar a:hover {
     background-color: #2540c1;
     transform: translateY(-2px);
 }
@@ -75,8 +75,7 @@ body {
 .content {
     grid-area: content;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* kaksi saraketta */
-    grid-template-rows: auto auto;  /* kaksi riviä */
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "text1 image1"
         "image2 text2";
@@ -87,21 +86,19 @@ body {
     align-items: start;
 }
 
-/* Grid-alueiden määritykset */
-.content-text1 { grid-area: text1; }
+/* Grid-alueet */
+.content-text { grid-area: text1; }
 .content-image1 { grid-area: image1; }
 .content-image2 { grid-area: image2; }
 .content-text2 { grid-area: text2; }
 
 /* Tekstityylit */
-.content-text1 h2,
-.content-text2 h3 {
+.content h2 {
     color: #2d55f4;
     margin-bottom: 10px;
 }
 
-.content-text1 p,
-.content-text2 p {
+.content p {
     margin-bottom: 10px;
 }
 
@@ -119,7 +116,7 @@ body {
     object-fit: cover;
 }
 
-/* ======= LOMAKKEET (jos käytössä muilla sivuilla) ======= */
+/* ======= LOMAKKEET (ei muutettu) ======= */
 .form-instructions {
     margin-bottom: 15px;
     font-size: 1rem;
@@ -168,7 +165,7 @@ body {
     border: none;
     border-radius: 8px;
     background-color: #2d55f4;
-    color: white;
+    color: #fff;
     font-weight: 600;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
@@ -185,7 +182,7 @@ body {
     text-align: center;
     padding: 15px;
     background-color: #2d55f4;
-    color: white;
+    color: #fff;
     border-radius: 12px;
 }
 
@@ -198,9 +195,6 @@ body {
             "image1"
             "image2"
             "text2";
-    }
-
-    .content {
         padding: 15px;
     }
 }
@@ -224,7 +218,7 @@ body {
         gap: 10px;
     }
 
-    .sidebar ul li a {
+    .sidebar a {
         text-align: center;
         padding: 8px 12px;
         font-size: 0.9rem;
