@@ -173,6 +173,10 @@ textarea.input {
   margin: 50px 20px;
 }
 
+.about {
+  text-align: center;
+}
+
 .project {
   background: #f5f5f5;
   padding: 30px;
@@ -243,6 +247,3 @@ textarea.input {
   .hero h1 {
     font-size: 2.2rem;
   }
-
-
-
