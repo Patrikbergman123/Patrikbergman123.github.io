@@ -1,50 +1,75 @@
+@import url("-");
 
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.grid-item1{
-    grid-column: span 5 / span 5;
+a {
+  text-decoration: none;
 }
 
-.grid-item2{
-    grid-column: span 3 / span 3;
-    grid-row-start: 2;
+.hero {
+  width: 100%;  
+  height: 100vh;
+  background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+  background-size: cover;
 }
 
-.grid-item3{
-    grid-column: span 5 / span 5;
-    grid-column-start: 1;
-    grid-row-start: 5;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
 }
 
-.grid-item4{
-    grid-column: span 2 / span 2;
-    grid-row: span 2 / span 2;
-    grid-column-start: 4;
-    grid-row-start: 2;
+nav ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  list-style: none;
 }
 
-.grid-item5{
-    grid-column: span 2 / span 2;
-    grid-column-start: 2;
-    grid-row-start: 2;
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
 }
 
-.grid-item6{
-    grid-column: span 2 / span 2;
-    grid-row: span 2 / span 2;
-    grid-column-start: 2;
-    grid-row-start: 3;
+nav ul li a:hover {
+  color: #fd4766;
 }
 
-.grid-item7{
-    grid-column: span 2 / span 2;
-    grid-column-start: 4;
-    grid-row-start: 4;
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
 }
 
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 40px;
+  background: #fd4766;
+  color: #fff;
+  border-radius: 500px;
+  transition: all 0.4s ease-in-out;
+  font-weight: 500;
+  background-size: 152% 100%;
+  border: 2px solid #fd4766;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #fd4766;
+  border-color: #fd4766;
+  transform: scale(1.05);
+}
