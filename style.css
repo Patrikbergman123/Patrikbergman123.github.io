@@ -24,6 +24,13 @@ a {
   transition: 0.3s;
 }
 
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
 .hero {
   width: 100%;
   height: 100vh;
@@ -51,6 +58,14 @@ a {
   position: relative;
   z-index: 2;
   color: #fff;
+}
+
+.hero .content p {
+  margin-bottom: 25px;
+}
+
+.hero .content .btn {
+  margin-top: 10px;
 }
 
 .hero h1 {
@@ -119,6 +134,7 @@ nav ul li a:hover::after {
 }
 
 
+
 .contact .input{
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -180,6 +196,17 @@ textarea.input{
 .project:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+.project p {
+  margin-bottom: 20px;
+}
+
+.github-btn {
+  margin-top: 10px;
 }
 
 .github-btn i {
